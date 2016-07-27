@@ -1,11 +1,11 @@
 
 package io.dcloud;
 
-import io.dcloud.HBuilder.Hello.R;
+import com.yinchengku.b2b.R;
 
 /**
- * ±¾ÎÄ¼şÊÇ5+SDKÊ¹ÓÃµÄ×ÊÔ´Ë÷Òı
- * ¹¤³ÌÒıÈë±¾ÎÄ¼şµÄ°üÃû±ØĞëÊÇ¡°io.dcloud¡±
+ * æœ¬æ–‡ä»¶æ˜¯5+SDKä½¿ç”¨çš„èµ„æºç´¢å¼•
+ * å·¥ç¨‹å¼•å…¥æœ¬æ–‡ä»¶çš„åŒ…åå¿…é¡»æ˜¯â€œio.dcloudâ€
  * */
 public class RInformation {
 	//5+Runtime - begin

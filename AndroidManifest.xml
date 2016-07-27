@@ -1,8 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.dcloud.HBuilder.Hello"
+    package="com.yinchengku.b2b"
     android:versionCode="100"
     android:versionName="1.0.0" >
-
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
@@ -10,7 +9,7 @@
         android:resizeable="true"
         android:smallScreens="true" />
 
-    <uses-sdk android:minSdkVersion="8" />
+    <uses-sdk android:minSdkVersion="17" />
     <!-- HBuilder Runtime 基础权限   begin -->
     <!-- 联网 -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -23,7 +22,7 @@
 
     <!-- Audio begin -->
     <!-- 访问录音设备 -->
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--<uses-permission android:name="android.permission.RECORD_AUDIO" />-->
     <!-- 修改播放声音通道 -->
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <!-- Audio end -->
@@ -39,9 +38,9 @@
 
     <!-- Contacts  begin -->
     <!-- 访问联系人 -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!--<uses-permission android:name="android.permission.GET_ACCOUNTS" />-->
+    <!--<uses-permission android:name="android.permission.WRITE_CONTACTS" />-->
+    <!--<uses-permission android:name="android.permission.READ_CONTACTS" />-->
     <!-- Contacts  end -->
 
 
@@ -141,20 +140,20 @@
 
 
     <!-- Push(推送)-个推  begin -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="getui.permission.GetuiService.io.dcloud.HBuilder.Hello" />
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <!--<uses-permission android:name="android.permission.WAKE_LOCK" />-->
+    <!--<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />-->
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!--<uses-permission android:name="android.permission.VIBRATE" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />-->
+    <!--<uses-permission android:name="android.permission.CALL_PHONE" />-->
+    <!--<uses-permission android:name="getui.permission.GetuiService.com.yinchengku.b2b" />-->
 
-    <permission
-        android:name="getui.permission.GetuiService.io.dcloud.HBuilder.Hello"
-        android:protectionLevel="normal" />
+    <!--<permission-->
+        <!--android:name="getui.permission.GetuiService.com.yinchengku.b2b"-->
+        <!--android:protectionLevel="normal" />-->
     <!-- Push(推送)-个推    end -->
 
 
@@ -259,7 +258,7 @@
         <!-- meta-data节点android:name="com.baidu.lbsapi.API_KEY"项中android:value值为百度地图应用的Appkey -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="5T6WRTIeewGqzZXXn3GhClLXm1IBrM66" >
+            android:value="Lhqa09QzEfGWeIonHrYHedrSGSxswRuC" >
         </meta-data>
 
         <service
@@ -342,115 +341,115 @@
         <!-- meta-data节点android:name="appsecret"项中android:value值为个推服务器上申请的APPSECRET -->
         <!-- 个推 aps配置  begin -->
 
-        <receiver android:name="io.dcloud.feature.apsGt.PushMessageReceiver" >
-            <intent-filter>
-                <action android:name="com.igexin.sdk.action.bBPiGM1VQ66mhMI3d9tG0A" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name="io.dcloud.feature.apsGt.GTNotificationReceiver" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="io.dcloud.HBuilder.Hello.__CREATE_NOTIFICATION" />
-                <action android:name="io.dcloud.HBuilder.Hello.__REMOVE_NOTIFICATION" />
-                <action android:name="io.dcloud.HBuilder.Hello.__CLEAR_NOTIFICATION" />
-                <action android:name="io.dcloud.HBuilder.Hello.__CLILK_NOTIFICATION" />
-            </intent-filter>
-        </receiver>
+        <!--<receiver android:name="io.dcloud.feature.apsGt.PushMessageReceiver" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.igexin.sdk.action.bBPiGM1VQ66mhMI3d9tG0A" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<receiver android:name="io.dcloud.feature.apsGt.GTNotificationReceiver" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+                <!--<action android:name="com.yinchengku.b2b.__CREATE_NOTIFICATION" />-->
+                <!--<action android:name="com.yinchengku.b2b.__REMOVE_NOTIFICATION" />-->
+                <!--<action android:name="com.yinchengku.b2b.__CLEAR_NOTIFICATION" />-->
+                <!--<action android:name="com.yinchengku.b2b.__CLILK_NOTIFICATION" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!---->
+        <!--<meta-data-->
+            <!--android:name="PUSH_APPID"-->
+            <!--android:value="bBPiGM1VQ66mhMI3d9tG0A" />-->
+        <!--<meta-data-->
+            <!--android:name="PUSH_APPKEY"-->
+            <!--android:value="uS09ESNrE46NQgnHmSYjL2" />-->
+        <!--<meta-data-->
+            <!--android:name="PUSH_APPSECRET"-->
+            <!--android:value="nG809brIPr7aTF7o0VpZM1" />-->
 
-        <meta-data
-            android:name="PUSH_APPID"
-            android:value="bBPiGM1VQ66mhMI3d9tG0A" />
-        <meta-data
-            android:name="PUSH_APPKEY"
-            android:value="uS09ESNrE46NQgnHmSYjL2" />
-        <meta-data
-            android:name="PUSH_APPSECRET"
-            android:value="nG809brIPr7aTF7o0VpZM1" />
+        <!--<service-->
+            <!--android:name="com.igexin.sdk.PushService"-->
+            <!--android:exported="true"-->
+            <!--android:label="NotificationCenter"-->
+            <!--android:process=":pushservice" >-->
+        <!--</service>-->
+        <!--<service-->
+            <!--android:name="com.igexin.sdk.PushServiceUser"-->
+            <!--android:exported="true"-->
+            <!--android:label="NotificationCenterUser" >-->
+        <!--</service>-->
 
-        <service
-            android:name="com.igexin.sdk.PushService"
-            android:exported="true"
-            android:label="NotificationCenter"
-            android:process=":pushservice" >
-        </service>
-        <service
-            android:name="com.igexin.sdk.PushServiceUser"
-            android:exported="true"
-            android:label="NotificationCenterUser" >
-        </service>
+        <!--<receiver android:name="com.igexin.sdk.PushReceiver" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+                <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />-->
+                <!--<action android:name="android.intent.action.USER_PRESENT" />-->
+                <!--<action android:name="com.igexin.sdk.action.refreshls" />-->
+                <!--<action android:name="android.intent.action.MEDIA_MOUNTED" />-->
+                <!--<action android:name="android.intent.action.ACTION_POWER_CONNECTED" />-->
+                <!--<action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<receiver-->
+            <!--android:name="com.igexin.sdk.PushManagerReceiver"-->
+            <!--android:exported="false" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.igexin.sdk.action.pushmanager" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
 
-        <receiver android:name="com.igexin.sdk.PushReceiver" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-                <action android:name="android.intent.action.USER_PRESENT" />
-                <action android:name="com.igexin.sdk.action.refreshls" />
-                <action android:name="android.intent.action.MEDIA_MOUNTED" />
-                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="com.igexin.sdk.PushManagerReceiver"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="com.igexin.sdk.action.pushmanager" />
-            </intent-filter>
-        </receiver>
+        <!--<activity-->
+            <!--android:name="com.igexin.sdk.PushActivity"-->
+            <!--android:excludeFromRecents="true"-->
+            <!--android:exported="false"-->
+            <!--android:process=":pushservice"-->
+            <!--android:taskAffinity="com.igexin.sdk.PushActivityTask"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" >-->
+        <!--</activity>-->
 
-        <activity
-            android:name="com.igexin.sdk.PushActivity"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:process=":pushservice"
-            android:taskAffinity="com.igexin.sdk.PushActivityTask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+        <!--<service-->
+            <!--android:name="com.igexin.download.DownloadService"-->
+            <!--android:process=":pushservice" />-->
 
-        <service
-            android:name="com.igexin.download.DownloadService"
-            android:process=":pushservice" />
+        <!--<receiver android:name="com.igexin.download.DownloadReceiver" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
 
-        <receiver android:name="com.igexin.download.DownloadReceiver" >
-            <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
-        </receiver>
+        <!--<provider-->
+            <!--android:name="com.igexin.download.DownloadProvider"-->
+            <!--android:authorities="downloads.com.yinchengku.b2b"-->
+            <!--android:exported="true"-->
+            <!--android:process=":pushservice" />-->
 
-        <provider
-            android:name="com.igexin.download.DownloadProvider"
-            android:authorities="downloads.io.dcloud.HBuilder.Hello"
-            android:exported="true"
-            android:process=":pushservice" />
+        <!--<activity-->
+            <!--android:name="com.igexin.getuiext.activity.GetuiExtActivity"-->
+            <!--android:configChanges="orientation|keyboard|keyboardHidden"-->
+            <!--android:excludeFromRecents="true"-->
+            <!--android:exported="false"-->
+            <!--android:process=":pushservice"-->
+            <!--android:taskAffinity="android.task.myServicetask"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+        <!--<activity-->
+            <!--android:name="com.igexin.sdk.GActivity"-->
+            <!--android:excludeFromRecents="true"-->
+            <!--android:exported="true"-->
+            <!--android:process=":pushservice"-->
+            <!--android:taskAffinity="com.igexin.sdk.PushActivityTask"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
 
-        <activity
-            android:name="com.igexin.getuiext.activity.GetuiExtActivity"
-            android:configChanges="orientation|keyboard|keyboardHidden"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:process=":pushservice"
-            android:taskAffinity="android.task.myServicetask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name="com.igexin.sdk.GActivity"
-            android:excludeFromRecents="true"
-            android:exported="true"
-            android:process=":pushservice"
-            android:taskAffinity="com.igexin.sdk.PushActivityTask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--<receiver-->
+            <!--android:name="com.igexin.getuiext.service.PayloadReceiver"-->
+            <!--android:exported="false" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />-->
+                <!--<action android:name="com.igexin.sdk.action.bBPiGM1VQ66mhMI3d9tG0A" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
 
-        <receiver
-            android:name="com.igexin.getuiext.service.PayloadReceiver"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />
-                <action android:name="com.igexin.sdk.action.bBPiGM1VQ66mhMI3d9tG0A" />
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name="com.igexin.getuiext.service.GetuiExtService"
-            android:process=":pushservice" />
+        <!--<service-->
+            <!--android:name="com.igexin.getuiext.service.GetuiExtService"-->
+            <!--android:process=":pushservice" />-->
 
         <!-- Push(推送)-个推  end -->
 
@@ -494,7 +493,7 @@
             <!--android:value="wx0411fa6a39d61297" />-->
 
         <!--<activity-->
-            <!--android:name="io.dcloud.HBuilder.Hello.wxapi.WXEntryActivity"-->
+            <!--android:name="com.yinchengku.b2b.wxapi.WXEntryActivity"-->
             <!--android:exported="true"-->
             <!--android:label="@string/app_name"-->
             <!--android:launchMode="singleTop"-->
@@ -527,7 +526,7 @@
 
         <!-- 微信支付配置 start -->
         <!--<activity-->
-            <!--android:name="io.dcloud.HBuilder.Hello.wxapi.WXPayEntryActivity"-->
+            <!--android:name="com.yinchengku.b2b.wxapi.WXPayEntryActivity"-->
             <!--android:exported="true"-->
             <!--android:launchMode="singleTop"-->
             <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
