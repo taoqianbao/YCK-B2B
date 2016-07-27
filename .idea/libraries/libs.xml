@@ -1,0 +1,67 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/file.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/share.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/geolocation-system.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/navigatorui.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/weibosdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/uploader.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/share-weixin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/nativeObj.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tx_weibo_sdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tx_wx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/audio.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gallery.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/geolocation-baidu.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/payment-alipay.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/universal-image-loader-1.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/weibosdkcore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/oauth.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/oauth-sina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Msc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/GetuiSDK2.7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/messaging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/speech_ifly.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/contacts.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/aps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/nativeui.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ui.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/json_simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/share-tencent.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/oauth-qq.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tx_weibo_sdk_component.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/statistics-umeng.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/invocation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/aps-igexin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tx_weibo_sdk-httpclient-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/oauth-weixin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/open_sdk_r5043_lite.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/camera.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/map-baidu.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/nopermission.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/payment-weixin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/payment.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/alipayutdid.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/alipaysdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/barcode.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/device.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/sensor.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/downloader.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/share-sina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/share-qq.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/xhr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/pdr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/umeng-analytics-v5.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/speech.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/GetuiExt-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/BaiduLBS_Android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/geolocation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/nineoldandroids-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/alipaysecsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
