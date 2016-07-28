@@ -535,6 +535,12 @@
             <!--android:name="WX_APPID"-->
             <!--android:value="wx0411fa6a39d61297" />-->
         <!-- 微信支付配置end -->
+
+
+        <meta-data
+            android:name="immersed.status.bar"
+            android:value="false" />
+
     </application>
 
 </manifest>
